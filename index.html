@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YouTour – Inicio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">YouTour</div>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Explora el mundo con YouTour</h1>
+      <p>Vive experiencias únicas y personalizadas.</p>
+      <a href="#servicios" class="btn">Ver Servicios</a>
+    </div>
+  </header>
+
+  <section id="servicios" class="servicios">
+    <h2>Nuestros Servicios</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Tour Guiado</h3>
+        <p>Con guía experto en cada destino.</p>
+      </div>
+      <div class="card">
+        <h3>Paquetes Personalizados</h3>
+        <p>Diseñamos tu viaje a tu medida.</p>
+      </div>
+      <div class="card">
+        <h3>Aventuras Extremas</h3>
+        <p>Actividades de adrenalina y naturaleza.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria" class="galeria">
+    <h2>Galería</h2>
+    <div class="imagenes">
+      <img src="images/destino1.jpg" alt="Destino 1" />
+      <img src="images/destino2.jpg" alt="Destino 2" />
+      <img src="images/destino3.jpg" alt="Destino 3" />
+    </div>
+  </section>
+
+  <section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <form action="#" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 YouTour. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
+
